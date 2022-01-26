@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    IBOutlet UIButton *rookie;
+    IBOutlet UIButton *easy;
+    IBOutlet UIButton *regular;
+    IBOutlet UIButton *hard;
+    IBOutlet UIButton *htp;
+}
+- (IBAction)pushrookie:(id)sender;
+- (IBAction)pusheasy:(id)sender;
+- (IBAction)pushregular:(id)sender;
+- (IBAction)pushhard:(id)sender;
+
+@property double height_barance;
 
 @end
